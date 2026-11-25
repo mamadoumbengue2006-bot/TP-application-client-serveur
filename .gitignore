@@ -1,0 +1,35 @@
+# .gitignore — TP-application-client-serveur
+
+# Secrets et variables d'environnement
+.env
+.env.*
+!.env.example
+
+# Credentials et clés privées
+credentials/
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs
+*.log
+logs/
+
+# Fichiers temporaires
+tmp/
+temp/
+*.tmp
+*.temp
+~$*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.vscode/
+.idea/
